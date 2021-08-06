@@ -9,6 +9,7 @@ namespace CursoMVC.Models
             optionsBuilder.UseSqlServer("Server=localhost;Database=StoreDb;User Id=SA;Password=Ai!3129494;");
         }
         public DbSet<Categoria> Categorias { get; set; }
-        
+
+        public DbSet<Produto> Produtos { get; set; }
     }
 }
