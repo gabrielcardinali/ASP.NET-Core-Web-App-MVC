@@ -9,8 +9,4 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.9" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CursoAPI\CursoAPI.csproj" />
-    <ProjectReference Include="..\CursoTestXunit\CursoTestXunit.csproj" />
-  </ItemGroup>
 </Project>
